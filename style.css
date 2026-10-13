@@ -17,3 +17,22 @@ html[data-language="en"]{--orange:#2563eb;--orange-dark:#1d4ed8;--orange-soft:#d
 .profile-list button small{font-size:9px;letter-spacing:1px;background:var(--orange-soft);color:var(--orange-dark);padding:5px 7px;border-radius:7px}
 .profile-list button:hover{border-color:var(--orange);transform:translateY(-1px)}
 .profile-note{display:block;color:var(--muted);font-size:11px;line-height:1.5;margin-top:18px}
+
+/* Refuerzo de legibilidad y seguimiento individual */
+.feedback .answer-reveal{display:block;margin-top:8px;font-size:clamp(21px,5vw,27px);line-height:1.2;font-weight:900;overflow-wrap:anywhere}
+.feedback.incorrect .answer-reveal{color:#b91c1c}
+.feedback.correct .answer-reveal{color:#166534}
+.saved-card-main .word-progress{display:block;margin-top:7px;font-size:10px;line-height:1.4;color:var(--muted)}
+.admin-dashboard{margin:0 0 18px;padding:17px;background:var(--surface);border:1px solid var(--line);border-radius:19px;box-shadow:var(--shadow)}
+.admin-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}
+.admin-heading .eyebrow{margin:0 0 4px;font-size:9px}
+.admin-heading h3{margin:0;font-size:17px;letter-spacing:-.4px}
+.admin-badge{padding:6px 9px;border-radius:99px;background:var(--orange-soft);color:var(--orange-dark);font-size:9px;font-weight:900;letter-spacing:1px}
+.admin-user{padding:11px 0;border-top:1px solid var(--line)}
+.admin-user>strong{display:block;font-size:12px;margin-bottom:6px}
+.admin-user>div{display:grid;gap:4px;color:var(--muted);font-size:10px}
+@media (max-width:420px){.top-actions{gap:6px}.language-toggle{padding:8px 9px;font-size:10px}.admin-dashboard{padding:13px}}
+
+.home-option:last-child:nth-child(odd){grid-column:1 / -1;min-height:108px;flex-direction:row;align-items:center;gap:14px}
+.home-option:last-child:nth-child(odd) .option-copy{flex:1}
+.home-option:last-child:nth-child(odd) .option-arrow{position:static;margin-left:auto}

@@ -1,13 +1,11 @@
 /* Caché offline básica para la interfaz de Lingua. */
-const CACHE_NAME = "lingua-shell-v6";
+const CACHE_NAME = "lingua-shell-v7";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./style.css",
   "./script.js",
   "./manifest.json",
-  "./vocabulario_aleman_A1_lingua.xlsx",
-  "./vocabulario_ingles_A1_lingua.xlsx",
   "./icons/icon-192.png",
   "./icons/icon-512.png"
 ];
